@@ -69,4 +69,9 @@ public class GenericNode<T> {
 
 	}// end getNextNode
 
+	@Override
+	public String toString() {
+		return "GenericNode [data=" + data + ", nextNode=" + nextNode + "]";
+	}// end toString
+
 }// end class

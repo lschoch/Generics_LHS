@@ -2,7 +2,7 @@ package linkedlist;
 
 /**
  * This class models a linked list in which each node has a pointer to the node
- * after it, except the tail which does not have a node after. Each linked list 
+ * after it, except the tail which does not have a node after. Each linked list
  * has its internal data stored as a parameterized type which is a placeholder
  * for any type of object.
  * 
@@ -68,5 +68,10 @@ public class GenericLinkedList<T> {
 		length++;
 
 	}// end addNode
+
+	@Override
+	public String toString() {
+		return "GenericLinkedList [head=" + head + ", tail=" + tail + ", length=" + length + "]";
+	}// end toString
 
 }// end class
