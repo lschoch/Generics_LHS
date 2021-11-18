@@ -1,0 +1,5 @@
+/bin/
+/doc/
+*.class
+.DS_Store
+TestLinkedList_original.java
