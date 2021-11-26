@@ -14,18 +14,11 @@ public class GenericLinkedList<T> {
 	// generic node to represent the tail (end) of the list
 	private GenericNode<T> tail;
 	// variable to keep track of the number of elements in the list
-	private int length; 
+	private int length;
 
 	/**
 	 * The constructor for this object, initializes the list such that it is an
 	 * empty (no head or tail) node.
-	 * 
-	 * @param head the value of head, a generic node to represent the head of 
-	 *  the list
-	 * @param length the value of length, a variable to keep track of the number
-	 *  of elements in the list
-	 * @param tail the value of tail, generic node to represent the tail (end)
-	 *  of the list
 	 */
 	public GenericLinkedList() {
 		head = null;
