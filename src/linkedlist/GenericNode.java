@@ -8,12 +8,15 @@ package linkedlist;
  * @author rkelley/njohnson/lschoch Programming Project 1 Start Project CS131ON
  */
 public class GenericNode<T> {
-
-	private T data; // data that the object stores
-	private GenericNode<T> nextNode; // pointer to the next generic node in the LinkedList
+	
+	// data that the object stores
+	private T data; 
+	// pointer to the next generic node in the LinkedList
+	private GenericNode<T> nextNode; 
 
 	/**
-	 * Constructor build GenericNode object. Initializes nextNode and data to null.
+	 * Empty-argument constructor to build a GenericNode object. Initializes
+	 * nextNode and data to null.
 	 */
 	public GenericNode() {
 		setNextNode(null);
