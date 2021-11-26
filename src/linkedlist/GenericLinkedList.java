@@ -9,14 +9,23 @@ package linkedlist;
  * @author rkelley/njohnson/lschoch Programming Project 1 Start Project CS131ON
  */
 public class GenericLinkedList<T> {
-
-	private GenericNode<T> head; // generic node to represent the head of the list
-	private GenericNode<T> tail; // generic node to represent the tail (end) of the list
-	private int length; // variable to keep track of the number of elements in the list
+	// generic node to represent the head of the list
+	private GenericNode<T> head;
+	// generic node to represent the tail (end) of the list
+	private GenericNode<T> tail;
+	// variable to keep track of the number of elements in the list
+	private int length; 
 
 	/**
 	 * The constructor for this object, initializes the list such that it is an
 	 * empty (no head or tail) node.
+	 * 
+	 * @param head the value of head, a generic node to represent the head of 
+	 *  the list
+	 * @param length the value of length, a variable to keep track of the number
+	 *  of elements in the list
+	 * @param tail the value of tail, generic node to represent the tail (end)
+	 *  of the list
 	 */
 	public GenericLinkedList() {
 		head = null;
